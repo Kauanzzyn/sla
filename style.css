@@ -1,0 +1,38 @@
+h1, label, p, input, button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191900;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F566;
+}
+
+input, button{
+    background-color: #FAFAB3;
+    border-radius: 8px;
+    border: 2px solid #CACA00;
+}
+
+.a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input{
+    margin: 4px 0px 0px 0px;
+    padding: 3px 6px;
+    width: 180px;
+    height: 40;
+    
+}
+
+button{
+    margin: 0px 5px;
+    width: 90px;
+    height: 40px;
+    font-weight: 600;
+}

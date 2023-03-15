@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
     <title>Site</title>
   </head>
@@ -11,18 +12,20 @@
     <h1>Site Dividido</h1>
     <br />
     <br />
-    <label for="n_sei">Digite o primeiro número</label>
+    <label for="n_sei">Digite o primeiro número:</label>
     <input type="number" id="input1" />
     <br />
     <br />
-    <label for="n_sei">Digite o segundo número</label>
+    <label for="n_sei">Digite o segundo número:</label>
     <input type="number" id="input2" />
     <br />
     <br />
-    <button onclick="soma()">Somar</button>
-    <button onclick="sub()">Subtrir</button>
-    <button onclick="mult()">Multiplicar</button>
-    <button onclick="divi()">Dividir</button>
+    <div class="a">
+      <button onclick="soma()">Somar</button>
+      <button onclick="sub()">Subtrir</button>
+      <button onclick="mult()">Multiplicar</button>
+      <button onclick="divi()">Dividir</button>
+    </div>
     <br />
     <p id="res"></p>
   </body>
